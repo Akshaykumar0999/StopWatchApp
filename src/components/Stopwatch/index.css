@@ -1,0 +1,124 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.Title {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #333333;
+}
+.timer-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 35%;
+}
+.timer-display-operations-card {
+  height: 95%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+}
+.timer-img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.timer-name {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #333333;
+  margin-left: 10px;
+}
+.timer {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #333333;
+}
+.buttons-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.start-btn {
+  background-color: #1db05f;
+  color: aliceblue;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 5px;
+  width: 60px;
+}
+.stop-btn {
+  background-color: #ef0d36;
+  color: aliceblue;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 5px;
+  width: 60px;
+}
+.reset-btn {
+  background-color: #eaa800;
+  color: aliceblue;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 5px;
+  width: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-display-operations-card {
+    height: 80%;
+    width: 80%;
+  }
+  .Title {
+    font-size: 32px;
+  }
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+    align-items: flex-start;
+  }
+  .timer-card-container {
+    width: 50%;
+  }
+  .timer-name {
+    font-size: 22px;
+  }
+  .timer-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .timer {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .timer-card-container {
+    width: 50%;
+    height: 50%;
+  }
+}
